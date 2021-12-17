@@ -76,7 +76,11 @@
           </e>
           <e p="UserControlSystem" t="Include">
             <e p="CommandsRealization" t="Include">
+              <e p="AttackCommand.cs" t="Include" />
+              <e p="MoveCommand.cs" t="Include" />
+              <e p="PatrolCommand.cs" t="Include" />
               <e p="ProduceUnitCommand.cs" t="Include" />
+              <e p="StopCommand.cs" t="Include" />
             </e>
             <e p="MouseInteractionsHandler.cs" t="Include" />
             <e p="UI" t="Include">
