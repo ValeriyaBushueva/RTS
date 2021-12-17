@@ -1414,6 +1414,68 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0751885, z: 1}
   m_Center: {x: 0, y: 0.52214235, z: 0}
+--- !u!114 &1796122224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796122222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557cec6ce3cd271448717190efc71b80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1796122225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796122222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588389150872628419469f75a91667be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1796122226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796122222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b8ca4d80af976498101685d980e1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1796122227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796122222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72117f65b24d9774985a3255a9a72a74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1796122228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796122222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445a73a9300d80d4d8cdbf1f05436ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 100
+  _icon: {fileID: 21300000, guid: 9908913e928c42d4f9f1891893bbc424, type: 3}
 --- !u!1 &1834126934
 GameObject:
   m_ObjectHideFlags: 0

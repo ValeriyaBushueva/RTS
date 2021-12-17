@@ -64,6 +64,13 @@
             <e p="ISelectable.cs" t="Include" />
           </e>
           <e p="Core" t="Include">
+            <e p="CommandExecutors" t="Include">
+              <e p="AttackCommandExecutor.cs" t="Include" />
+              <e p="MainUnit.cs" t="Include" />
+              <e p="MoveCommandExecutor.cs" t="Include" />
+              <e p="PatrolCommandExecutor.cs" t="Include" />
+              <e p="StopCommandExecutor.cs" t="Include" />
+            </e>
             <e p="Core.asmdef" t="Include" />
             <e p="MainBuilding.cs" t="Include" />
           </e>
