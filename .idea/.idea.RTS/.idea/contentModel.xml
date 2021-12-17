@@ -49,6 +49,18 @@
         <e p="Scripts" t="Include">
           <e p="Abstractions" t="Include">
             <e p="Abstractions.asmdef" t="Include" />
+            <e p="Commands" t="Include">
+              <e p="CommandExecutorBase.cs" t="Include" />
+              <e p="CommandsInterfaces" t="Include">
+                <e p="IAttackCommand.cs" t="Include" />
+                <e p="IMoveCommand.cs" t="Include" />
+                <e p="IPatrolCommand.cs" t="Include" />
+                <e p="IProduceUnitCommand.cs" t="Include" />
+                <e p="IStopCommand.cs" t="Include" />
+              </e>
+              <e p="ICommand.cs" t="Include" />
+              <e p="ICommandExecutor.cs" t="Include" />
+            </e>
             <e p="ISelectable.cs" t="Include" />
             <e p="IUnitProducer.cs" t="Include" />
           </e>
@@ -57,6 +69,9 @@
             <e p="MainBuilding.cs" t="Include" />
           </e>
           <e p="UserControlSystem" t="Include">
+            <e p="CommandsRealization" t="Include">
+              <e p="ProduceUnitCommand.cs" t="Include" />
+            </e>
             <e p="MouseInteractionsHandler.cs" t="Include" />
             <e p="UI" t="Include">
               <e p="Model" t="Include">
@@ -65,14 +80,22 @@
               </e>
               <e p="Presenter" t="Include">
                 <e p="BottomLeftPresenter.cs" t="Include" />
+                <e p="CommandButtonsPresenter.cs" t="Include" />
                 <e p="MouseInteractionPresenter.cs" t="Include" />
                 <e p="Presenter.asmdef" t="Include" />
               </e>
               <e p="View" t="Include">
+                <e p="CommandButtonsView.cs" t="Include" />
                 <e p="View.asmdef" t="Include" />
               </e>
             </e>
             <e p="UserControlSystem.asmdef" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="AssetsContext.cs" t="Include" />
+            <e p="AssetsInjector.cs" t="Include" />
+            <e p="InjectAssetAttribute.cs" t="Include" />
+            <e p="Utils.asmdef" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
@@ -117,6 +140,7 @@
       <e p="RTS.sln" t="IncludeFlat" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
       <e p="UserControlSystem.csproj" t="IncludeRecursive" />
+      <e p="Utils.csproj" t="IncludeRecursive" />
       <e p="View.csproj" t="IncludeRecursive" />
     </e>
   </component>

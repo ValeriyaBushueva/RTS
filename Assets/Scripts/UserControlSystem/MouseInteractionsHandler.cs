@@ -32,3 +32,8 @@ public class MouseInteractionsHandler : MonoBehaviour
         mainBuilding.ProduceUnit();
     }
 }
+
+internal interface IUnitProducer
+{
+    void ProduceUnit();
+}
