@@ -62,7 +62,6 @@
               <e p="ICommandExecutor.cs" t="Include" />
             </e>
             <e p="ISelectable.cs" t="Include" />
-            <e p="IUnitProducer.cs" t="Include" />
           </e>
           <e p="Core" t="Include">
             <e p="Core.asmdef" t="Include" />

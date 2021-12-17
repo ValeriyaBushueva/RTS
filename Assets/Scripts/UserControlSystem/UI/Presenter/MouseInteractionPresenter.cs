@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Abstractions;
+using QuickOutline.Scripts;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UserControlSystem;
@@ -9,6 +10,7 @@ public sealed class MouseInteractionPresenter : MonoBehaviour
     [SerializeField] private Camera _camera;
     [SerializeField] private SelectableValue _selectedObject;
     [SerializeField] private EventSystem _eventSystem;
+    
 
     private void Update()
     {
@@ -32,5 +34,11 @@ public sealed class MouseInteractionPresenter : MonoBehaviour
             .Select(hit => hit.collider.GetComponentInParent<ISelectable>())
             .FirstOrDefault(c => c != null);
         _selectedObject.SetValue(selectable);
+        
+        var outline = hits
+            .Select(hit => hit.collider.GetComponentInParent<Outline>())
+            .FirstOrDefault(c => c != null);
+        outline.enabled = true;
+
     }
 }

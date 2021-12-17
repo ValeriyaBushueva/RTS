@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _camera: {fileID: 963194227}
   _selectedObject: {fileID: 11400000, guid: 7141aae4b16134e49af0215b6da77bcf, type: 2}
-  _eventSystem: {fileID: 0}
+  _eventSystem: {fileID: 467524304}
 --- !u!114 &104699002 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 30251973803197052, guid: 5dd235a43d36f9347a1a35df441f10d9, type: 3}
@@ -1396,6 +1396,24 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!1 &1796122222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 2732fe64dd2799f439fb845921df626b, type: 3}
+  m_PrefabInstance: {fileID: 187736400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1796122223
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796122222}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.0751885, z: 1}
+  m_Center: {x: 0, y: 0.52214235, z: 0}
 --- !u!1 &1834126934
 GameObject:
   m_ObjectHideFlags: 0
