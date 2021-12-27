@@ -982,6 +982,8 @@
               <e p="ICommand.cs" t="Include" />
               <e p="ICommandExecutor.cs" t="Include" />
             </e>
+            <e p="IAttackable.cs" t="Include" />
+            <e p="IHealthHolder.cs" t="Include" />
             <e p="ISelectable.cs" t="Include" />
             <e p="IUnitProducer.cs" t="Include" />
           </e>
@@ -1009,6 +1011,7 @@
             <e p="MouseInteractionsHandler.cs" t="Include" />
             <e p="UI" t="Include">
               <e p="Model" t="Include">
+                <e p="AttackableValue.cs" t="Include" />
                 <e p="CommandButtonsModel.cs" t="Include" />
                 <e p="CommandCreator" t="Include">
                   <e p="AttackCommandCommandCreator.cs" t="Include" />

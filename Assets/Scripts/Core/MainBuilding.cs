@@ -7,6 +7,7 @@ public sealed class MainBuilding : CommandExecutorBase<IProduceUnitCommand>, ISe
 {
     public float Health => _health;
     public float MaxHealth => _maxHealth;
+    public Transform PivotPoint { get; }
     public Sprite Icon => _icon;
 
     [SerializeField] private Transform _unitsParent;

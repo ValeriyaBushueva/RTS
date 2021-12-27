@@ -1,9 +1,20 @@
 using Abstractions.Commands.CommandsInterfaces;
 using UnityEngine;
 using Utils;
+using Zenject;
 
 public  sealed class AttackCommand :IAttackCommand
 {
-    public GameObject UnitPrefab => _unitPrefab;
-    [InjectAsset("Chomper")] private GameObject _unitPrefab;
+    public IAttackable Target { get; }
+
+    public AttackCommand()
+    {
+        
+    }
+    public AttackCommand(IAttackable target)
+    {
+        Target = target;
+    }
+
+    
 }
