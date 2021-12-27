@@ -1449,13 +1449,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748817643}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 0.18060237, g: 0.9254902, b: 0.054901984, a: 1}
+  outlineColor: {r: 0.54793406, g: 0.9622642, b: 0.05900679, a: 1}
   outlineWidth: 10
   precomputeOutline: 0
   bakeKeys: []
@@ -1846,7 +1846,6 @@ GameObject:
   - component: {fileID: 1869261537}
   - component: {fileID: 1868491457}
   - component: {fileID: 1867491329}
-  - component: {fileID: 1869428418}
   m_Layer: 0
   m_Name: VegetationLarge04_LOD02
   m_TagString: Untagged
@@ -1854,24 +1853,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1869428418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869428417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 1
-  outlineColor: {r: 0.47651407, g: 0.9150943, b: 0.12517802, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1 &1869428419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,7 +1864,6 @@ GameObject:
   - component: {fileID: 1869261539}
   - component: {fileID: 1868491459}
   - component: {fileID: 1867491331}
-  - component: {fileID: 1869428420}
   m_Layer: 0
   m_Name: VegetationLarge04_LOD01
   m_TagString: Untagged
@@ -1891,24 +1871,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1869428420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869428419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 1
-  outlineColor: {r: 0.47651407, g: 0.9150943, b: 0.12517802, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1 &1869428421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,7 +1882,6 @@ GameObject:
   - component: {fileID: 1869261541}
   - component: {fileID: 1868491461}
   - component: {fileID: 1867491333}
-  - component: {fileID: 1869428422}
   m_Layer: 0
   m_Name: VegetationLarge04_LOD00
   m_TagString: Untagged
@@ -1928,24 +1889,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1869428422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869428421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 1
-  outlineColor: {r: 0.47651407, g: 0.9150943, b: 0.12517802, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1 &1869428423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,12 +1916,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869428423}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fcd92dab35c27546b2de44276e16db8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _outlineComponents: []
+  outlineMode: 0
+  outlineColor: {r: 0.4850504, g: 0.9245283, b: 0.11774653, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1910082941
 GameObject:
   m_ObjectHideFlags: 0

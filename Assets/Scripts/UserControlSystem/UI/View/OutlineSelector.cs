@@ -11,7 +11,6 @@ public sealed class OutlineSelector : MonoBehaviour
 
     private void Start()
     {
-        _outlineComponents = GetComponentsInChildren<Outline>();
         DisableOutline();
     }
 

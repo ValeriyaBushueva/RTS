@@ -2,6 +2,7 @@
 using Abstractions;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using QuickOutline.Scripts;
 using UserControlSystem;
 
 public sealed class MouseInteractionPresenter : MonoBehaviour
@@ -39,6 +40,11 @@ public sealed class MouseInteractionPresenter : MonoBehaviour
                 .Select(hit => hit.collider.GetComponentInParent<ISelectable>())
                 .FirstOrDefault(c => c != null);
             _selectedObject.SetValue(selectable);
+            
+            var outline = hits
+                .Select(hit => hit.collider.GetComponentInParent<Outline>())
+                .FirstOrDefault(c => c != null);
+            outline.enabled = true;
         }
         else
         {
