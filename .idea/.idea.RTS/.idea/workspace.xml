@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b5cd38e-914d-4f41-818d-7d461b4041db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/AssetsContext.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/AssetsContext.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IMoveCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IMoveCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/MoveCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/MoveCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/MoveCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/MoveCommand.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/Model.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/Model.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/Presenter.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/Presenter.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/CommandButtonsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/CommandButtonsView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/AssetsInjector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/AssetsInjector.cs" afterDir="false" />
-    </list>
+    <list default="true" id="6b5cd38e-914d-4f41-818d-7d461b4041db" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,10 +16,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/Outline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/PatrolCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/ISelectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/StopCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/PatrolCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/ProduceUnitCommandHeir.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,6 +53,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/UIModelInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/MoveCommandCommandCreator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/PatrolCommandCommandCreator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/StopCommandCommandCreator.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="22KHYzu5L0nGmpUxY1IcruKJu7a" />
