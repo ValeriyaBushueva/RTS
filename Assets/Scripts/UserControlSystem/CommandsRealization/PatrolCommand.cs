@@ -7,11 +7,12 @@ public class PatrolCommand :IPatrolCommand
       public GameObject UnitPrefab => _unitPrefab;
      [InjectAsset("Chomper")] private GameObject _unitPrefab;
 
+     public Vector3 From { get; }
+     public Vector3 To { get; }
+
      public PatrolCommand(Vector3 pivotPointPosition, Vector3 groundClick)
      {
-         throw new System.NotImplementedException();
+         From = pivotPointPosition;
+         To = groundClick;
      }
-
-     public Vector3 From { get; }
-    public Vector3 To { get; }
 }

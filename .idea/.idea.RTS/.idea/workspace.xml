@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5cd38e-914d-4f41-818d-7d461b4041db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IAttackCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IAttackCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IPatrolCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IPatrolCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/ISelectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/ISelectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/MainUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/MainUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/AttackCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/AttackCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/PatrolCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/PatrolCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/PatrolCommandCommandCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/PatrolCommandCommandCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +27,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/MouseInteractionsHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/IHealthHolder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/StopCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/IAttackable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/Outline.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/PatrolCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/ProduceUnitCommandHeir.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/MoveCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AssetsInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/IAttackable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/PatrolCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,10 +46,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/ISelectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/StopCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/PatrolCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/ProduceUnitCommandHeir.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/MoveCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/AttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -50,9 +54,7 @@
       <option value="$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/MouseInteractionsHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/StopCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/ProduceUnitCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/ProduceUnitCommandHeir.cs" />
@@ -71,14 +73,19 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IPatrolCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/ISelectable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/PatrolCommandCommandCreator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/PatrolCommand.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainUnit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/AttackCommand.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" />
+      <option value="$PROJECT_DIR$/Assets/AssetsInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" />
+      <option value="$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/PatrolCommand.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="22KHYzu5L0nGmpUxY1IcruKJu7a" />
