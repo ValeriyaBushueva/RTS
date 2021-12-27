@@ -972,9 +972,6 @@
             <e p="Abstractions.asmdef" t="Include" />
             <e p="Commands" t="Include">
               <e p="CommandExecutorBase.cs" t="Include" />
-              <e p="CommandExecutors" t="Include">
-                <e p="MoveCommandExecutor.cs" t="Include" />
-              </e>
               <e p="CommandsInterfaces" t="Include">
                 <e p="IAttackCommand.cs" t="Include" />
                 <e p="IMoveCommand.cs" t="Include" />

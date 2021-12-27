@@ -1,11 +1,11 @@
-using Abstractions.Commands;
-using Abstractions.Commands.CommandsInterfaces;
+﻿using Abstractions.Commands.CommandsInterfaces;
 using UnityEngine;
 
-public class MoveCommandExecutor : CommandExecutorBase<IMoveCommand>
+namespace Abstractions.Commands.CommandExecutors
 {
-    public override void ExecuteSpecificCommand(IMoveCommand command)
+    public class MoveCommandExecutor : CommandExecutorBase<IMoveCommand>
     {
-        Debug.Log($"{name} is moving!");
+        public override void ExecuteSpecificCommand(IMoveCommand command) 
+            => Debug.Log($"{name} is moving to {command.Target}!");
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,8 +9,12 @@ public sealed class OutlineSelector : MonoBehaviour
 
     private bool _isSelectedCache;
 
-    private void Start() => DisableOutline();
-    
+    private void Start()
+    {
+        _outlineComponents = GetComponentsInChildren<Outline>();
+        DisableOutline();
+    }
+
     public void SetSelected(bool isSelected)
     {
         if (isSelected == _isSelectedCache)
