@@ -6,7 +6,7 @@ namespace Utils
     public static class AssetsInjector
     {
         private static readonly Type _injectAssetAttributeType = typeof(InjectAssetAttribute);
-
+        
         public static T Inject<T>(this AssetsContext context, T target)
         {
             var targetType = target.GetType();

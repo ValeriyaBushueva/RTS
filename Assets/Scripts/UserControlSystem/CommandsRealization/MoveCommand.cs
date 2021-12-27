@@ -1,9 +1,15 @@
-using Abstractions.Commands.CommandsInterfaces;
+﻿using Abstractions.Commands.CommandsInterfaces;
 using UnityEngine;
-using Utils;
 
-public class MoveCommand : IMoveCommand
+namespace UserControlSystem.CommandsRealization
 {
-    public GameObject UnitPrefab => _unitPrefab;
-    [InjectAsset("Chomper")] private GameObject _unitPrefab;
+    public sealed class MoveCommand : IMoveCommand
+    {
+        public Vector3 Target { get; }
+        
+        public MoveCommand(Vector3 target)
+        {
+            Target = target;
+        }
+    }
 }
