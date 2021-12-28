@@ -1000,6 +1000,7 @@
             <e p="Core.asmdef" t="Include" />
             <e p="MainBuilding.cs" t="Include" />
             <e p="MainUnit.cs" t="Include" />
+            <e p="StopAwaiter.cs" t="Include" />
             <e p="UnitMovementStop.cs" t="Include" />
           </e>
           <e p="UserControlSystem" t="Include">
@@ -1027,6 +1028,7 @@
                   <e p="StopCommandCommandCreator.cs" t="Include" />
                 </e>
                 <e p="Model.asmdef" t="Include" />
+                <e p="NewValueNotifier.cs" t="Include" />
                 <e p="SelectableValue.cs" t="Include" />
                 <e p="UIModelInstaller.cs" t="Include" />
                 <e p="Vector3Value.cs" t="Include" />
@@ -1054,8 +1056,6 @@
             <e p="IAwaitable.cs" t="Include" />
             <e p="IAwaiter.cs" t="Include" />
             <e p="InjectAssetAttribute.cs" t="Include" />
-            <e p="NewValueNotifier.cs" t="Include" />
-            <e p="StopAwaiter.cs" t="Include" />
             <e p="Utils.asmdef" t="Include" />
           </e>
         </e>
