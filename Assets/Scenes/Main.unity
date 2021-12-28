@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.1
-    agentHeight: 0.1
+    agentRadius: 1
+    agentHeight: 1
     agentSlope: 45
-    agentClimb: 0.1
+    agentClimb: 1
     ledgeDropHeight: 0
-    maxJumpAcrossDistance: 1
+    maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.033333335
+    cellSize: 0.33333334
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -1714,8 +1714,8 @@ GameObject:
   m_Name: VegetationLarge04_LOD02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &1869428419
 GameObject:
@@ -1732,8 +1732,8 @@ GameObject:
   m_Name: VegetationLarge04_LOD01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &1869428421
 GameObject:
@@ -1750,8 +1750,8 @@ GameObject:
   m_Name: VegetationLarge04_LOD00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &1869428423
 GameObject:
@@ -2329,6 +2329,10 @@ PrefabInstance:
     - target: {fileID: 5991998661950675907, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443635462732229503, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
