@@ -1,38 +1,19 @@
 using System;
+using System.Threading;
+using System.Threading.Tasks;
 using Abstractions.Commands.CommandsInterfaces;
 using UserControlSystem;
 using Utils;
 using Zenject;
 
-public class AttackCommandCommandCreator :CommandCreatorBase<IAttackCommand>
+public class AttackCommandCommandCreator :CancellableCommandCreatorBase<IAttackCommand, IAttackable>
+
 {
-    [Inject] private AssetsContext _context;
-    private Action<IAttackCommand> _creationCallback;
+    protected override IAttackCommand createCommand(IAttackable argument) => new AttackCommand(argument);
 
-    [Inject]
-    private void Init(AttackableValue groundClicks)
+
+    protected override void classSpecificCommanCreator(Action<IAttackCommand> creationCallback)
     {
-        groundClicks.OnNewValue += onNewValue;
+       
     }
-
-    private void onNewValue(IAttackable attackable)
-    {
-        _creationCallback?.Invoke(_context.Inject(new AttackCommand(attackable)));
-        _creationCallback = null;
-    }
-
-
-    protected override void ClassSpecificCommandCreation(Action<IAttackCommand> creationCallback)
-    {
-        //creationCallback?.Invoke(_context.Inject(new AttackCommand()));
-        _creationCallback = creationCallback;
-    }
-    
-    public override void ProcessCancel()
-    {
-        base.ProcessCancel();
-
-        _creationCallback = null;
-    }
-
 }

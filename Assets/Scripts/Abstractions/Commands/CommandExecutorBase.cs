@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Threading.Tasks;
+using UnityEngine;
 
 namespace Abstractions.Commands
 {
@@ -6,6 +7,6 @@ namespace Abstractions.Commands
     {
         public void ExecuteCommand(object command) => ExecuteSpecificCommand((T)command);
 
-        public abstract void ExecuteSpecificCommand(T command);
+        public abstract Task ExecuteSpecificCommand(T command);
     }
 }
