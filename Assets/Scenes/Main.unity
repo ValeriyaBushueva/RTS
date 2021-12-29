@@ -639,6 +639,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &806486556 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6233052245052489496, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
+  m_PrefabInstance: {fileID: 5991998661865316369}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314fbb6b5a257174c935b3e2e5a82421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &806486561 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1796122224, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
+  m_PrefabInstance: {fileID: 5991998661865316369}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557cec6ce3cd271448717190efc71b80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &806486563 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5991998661959709729, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
+  m_PrefabInstance: {fileID: 5991998661865316369}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &904681549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2282,6 +2309,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1748817644}
     m_Modifications:
+    - target: {fileID: 1796122226, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
+      propertyPath: _stop
+      value: 
+      objectReference: {fileID: 806486556}
+    - target: {fileID: 1796122226, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 806486563}
+    - target: {fileID: 1796122226, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
+      propertyPath: _stopCommandExecutor
+      value: 
+      objectReference: {fileID: 806486561}
     - target: {fileID: 5991998661950179299, guid: a4468b444150a6d49afbe93bf807a53e, type: 3}
       propertyPath: m_Name
       value: Chomper
