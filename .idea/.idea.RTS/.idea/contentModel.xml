@@ -988,6 +988,8 @@
             <e p="IHealthHolder.cs" t="Include" />
             <e p="ISelectable.cs" t="Include" />
             <e p="IUnitProducer.cs" t="Include" />
+            <e p="NewValueNotifier.cs" t="Include" />
+            <e p="UnitMovementStop.cs" t="Include" />
           </e>
           <e p="Core" t="Include">
             <e p="CommandExecutors" t="Include">
@@ -1057,6 +1059,20 @@
             <e p="IAwaiter.cs" t="Include" />
             <e p="InjectAssetAttribute.cs" t="Include" />
             <e p="Utils.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="Test" t="Include">
+          <e p="AsyncAwait" t="Include">
+            <e p="AsyncCancel.cs" t="Include" />
+            <e p="AsyncCustom.cs" t="Include" />
+            <e p="AsyncMethods.cs" t="Include" />
+            <e p="AsyncSyntax.cs" t="Include" />
+            <e p="CoroutineVsAsync.cs" t="Include" />
+            <e p="Extensions.cs" t="Include" />
+          </e>
+          <e p="Zenject" t="Include">
+            <e p="InjectSamples.cs" t="Include" />
+            <e p="TestInstallers.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

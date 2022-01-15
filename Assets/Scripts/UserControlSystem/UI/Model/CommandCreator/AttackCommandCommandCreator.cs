@@ -1,19 +1,9 @@
-using System;
-using System.Threading;
-using System.Threading.Tasks;
-using Abstractions.Commands.CommandsInterfaces;
-using UserControlSystem;
-using Utils;
-using Zenject;
+﻿using Abstractions.Commands.CommandsInterfaces;
 
-public class AttackCommandCommandCreator :CancellableCommandCreatorBase<IAttackCommand, IAttackable>
-
+namespace UserControlSystem
 {
-    protected override IAttackCommand createCommand(IAttackable argument) => new AttackCommand(argument);
-
-
-    protected override void classSpecificCommanCreator(Action<IAttackCommand> creationCallback)
+    public sealed class AttackCommandCommandCreator : CancellableCommandCreatorBase<IAttackCommand, IAttackable>
     {
-       
+        protected override IAttackCommand CreateCommand(IAttackable argument) => new AttackCommand(argument);
     }
 }

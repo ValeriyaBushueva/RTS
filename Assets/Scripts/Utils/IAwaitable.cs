@@ -1,7 +1,7 @@
-using UnityEngine;
-
-public interface IAwaitable<T>
+﻿namespace Utils
 {
-    IAwaiter<T> GetAwaiter();
-
+    public interface IAwaitable<T>
+    {
+        IAwaiter<T> GetAwaiter();
+    }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading.Tasks;
 using Abstractions.Commands.CommandsInterfaces;
 using UserControlSystem.CommandsRealization;
 using Utils;
@@ -10,14 +9,8 @@ namespace UserControlSystem
     public sealed class ProduceUnitCommandCommandCreator : CommandCreatorBase<IProduceUnitCommand>
     {
         [Inject] private AssetsContext _context;
-        protected override async Task ClassSpecificCommandCreation(Action<IProduceUnitCommand> creationCallback)
-        {
-            creationCallback?.Invoke(_context.Inject(new ProduceUnitCommand()));
-        }
 
-        protected override void classSpecificCommanCreator(Action<IProduceUnitCommand> creationCallback)
-        {
-           
-        }
+        protected override void ClassSpecificCommandCreation(Action<IProduceUnitCommand> creationCallback) 
+            => creationCallback?.Invoke(_context.Inject(new ProduceUnitCommandHeir()));
     }
 }

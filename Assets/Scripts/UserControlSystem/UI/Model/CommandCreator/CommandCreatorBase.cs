@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Threading.Tasks;
 using Abstractions.Commands;
 
 namespace UserControlSystem
 {
-    public abstract class CommandCreatorBase<TCommand> where TCommand : ICommand
+    public abstract class CommandCreatorBase<T> where T : ICommand
     {
-        public ICommandExecutor ProcessCommandExecutor(ICommandExecutor commandExecutor, Action<TCommand> callback)
+        public ICommandExecutor ProcessCommandExecutor(ICommandExecutor commandExecutor, Action<T> callback)
         {
-            var classSpecificExecutor = commandExecutor as CommandExecutorBase<TCommand>;
+            var classSpecificExecutor = commandExecutor as CommandExecutorBase<T>;
             if (classSpecificExecutor != null)
             {
                 ClassSpecificCommandCreation(callback);
@@ -16,9 +15,8 @@ namespace UserControlSystem
             return commandExecutor;
         }
 
-        protected abstract Task ClassSpecificCommandCreation(Action<TCommand> creationCallback);
+        protected abstract void ClassSpecificCommandCreation(Action<T> creationCallback);
 
         public virtual void ProcessCancel() { }
-        protected abstract void classSpecificCommanCreator(Action<TCommand> creationCallback);
     }
 }

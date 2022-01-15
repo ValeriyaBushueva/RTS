@@ -1,21 +1,13 @@
-using System;
-using System.Threading.Tasks;
+﻿using System;
 using Abstractions.Commands.CommandsInterfaces;
-using UserControlSystem;
-using Utils;
-using Zenject;
 
-public class StopCommandCommandCreator :CommandCreatorBase<IStopCommand>
+namespace UserControlSystem
 {
-    [Inject] private AssetsContext _context;
-
-    protected override async Task ClassSpecificCommandCreation(Action<IStopCommand> creationCallback)
+    public sealed class StopCommandCommandCreator : CommandCreatorBase<IStopCommand>
     {
-        creationCallback?.Invoke(_context.Inject(new StopCommand()));
-    }
-
-    protected override void classSpecificCommanCreator(Action<IStopCommand> creationCallback)
-    {
-        //NONE
+        protected override void ClassSpecificCommandCreation(Action<IStopCommand> creationCallback)
+        {
+            
+        }
     }
 }

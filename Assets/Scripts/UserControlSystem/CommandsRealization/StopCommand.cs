@@ -1,9 +1,9 @@
-using Abstractions.Commands.CommandsInterfaces;
-using UnityEngine;
-using Utils;
+﻿using Abstractions.Commands.CommandsInterfaces;
 
-public class StopCommand : IStopCommand
+namespace UserControlSystem.CommandsRealization
 {
-    public GameObject UnitPrefab => _unitPrefab;
-    [InjectAsset("Chomper")] private GameObject _unitPrefab;
+    public sealed class StopCommand : IStopCommand
+    {
+        
+    }
 }
