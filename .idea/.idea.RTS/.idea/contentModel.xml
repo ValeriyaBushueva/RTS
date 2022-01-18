@@ -988,7 +988,6 @@
             <e p="IHealthHolder.cs" t="Include" />
             <e p="ISelectable.cs" t="Include" />
             <e p="IUnitProducer.cs" t="Include" />
-            <e p="NewValueNotifier.cs" t="Include" />
             <e p="UnitMovementStop.cs" t="Include" />
           </e>
           <e p="Core" t="Include">
