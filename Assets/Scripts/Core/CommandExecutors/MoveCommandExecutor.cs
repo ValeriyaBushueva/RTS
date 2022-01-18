@@ -1,7 +1,6 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using Abstractions.Commands.CommandsInterfaces;
-using Core;
 using UnityEngine;
 using UnityEngine.AI;
 using Utils;
@@ -39,10 +38,6 @@ namespace Abstractions.Commands.CommandExecutors
             }
             _stopCommandExecutor.CancellationTokenSource = null;
             _animator.SetTrigger(Idle);
-
-            // _animator.SetTrigger(Walk);
-            // await _stop;
-            // _animator.SetTrigger(Idle);
         }
     }
 }

@@ -7,12 +7,11 @@
     <list default="true" id="6b5cd38e-914d-4f41-818d-7d461b4041db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/AssetsContext.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/AssetsContext.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/GlobalScopeInstaller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/GlobalScopeInstaller.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/UnitMovementStop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/UnitMovementStop.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,17 +99,17 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/NewValueNotifier.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/AwaiterBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/NewValueNotifier.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/StopAwaiter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/OutlineSelector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandExecutorBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/AssetsContext.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/MoveCommandCommandCreator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/CancellableCommandCreatorBase.cs" />
       <option value="$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="22KHYzu5L0nGmpUxY1IcruKJu7a" />
@@ -167,7 +166,7 @@
       <workItem from="1640777952093" duration="868000" />
       <workItem from="1642423887857" duration="2143000" />
       <workItem from="1642506296381" duration="1628000" />
-      <workItem from="1642508707797" duration="4031000" />
+      <workItem from="1642508707797" duration="5189000" />
     </task>
     <servers />
   </component>

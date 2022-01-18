@@ -53,5 +53,4 @@ public abstract class ScriptableObjectValueBase<T> : ScriptableObject,  IAwaitab
     {
         return new NewValueNotifier<T>(this);
     }
-    
 }

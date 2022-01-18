@@ -58,6 +58,5 @@ public class UnitMovementStop : MonoBehaviour, IAwaitable<AsyncExtensions.Void>
     }
 
     public IAwaiter<AsyncExtensions.Void> GetAwaiter() => new StopAwaiter(this);
-
-
+    
 }
