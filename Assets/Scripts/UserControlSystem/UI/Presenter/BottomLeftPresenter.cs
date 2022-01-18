@@ -1,7 +1,10 @@
-﻿using Abstractions;
+﻿using System;
+using Abstractions;
 using TMPro;
+using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
+using Zenject;
 
 namespace UserControlSystem
 {
@@ -12,16 +15,17 @@ namespace UserControlSystem
         [SerializeField] private TextMeshProUGUI _text;
         [SerializeField] private Image _sliderBackground;
         [SerializeField] private Image _sliderFillImage;
+        
+        [Inject] private IObservable<ISelectable> _selectedValues;
 
-        [SerializeField] private SelectableValue _selectedValue;
 
         private void Start()
         {
-            _selectedValue.OnNewValue += ONSelected;
-            ONSelected(_selectedValue.CurrentValue);
+            _selectedValues.Subscribe(onSelected).AddTo(this);
+
         }
         
-        private void ONSelected(ISelectable selected)
+        private void onSelected(ISelectable selected)
         {
             _selectedImage.enabled = selected != null;
             _healthSlider.gameObject.SetActive(selected != null);

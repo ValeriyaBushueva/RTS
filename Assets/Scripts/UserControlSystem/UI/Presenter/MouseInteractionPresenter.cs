@@ -6,10 +6,10 @@ using UserControlSystem;
 
 public sealed class MouseInteractionPresenter : MonoBehaviour
 {
+    [SerializeField] private EventSystem _eventSystem;
     [SerializeField] private Camera _camera;
     [SerializeField] private SelectableValue _selectedObject;
-    [SerializeField] private EventSystem _eventSystem;
-    
+
     [SerializeField] private Vector3Value _groundClicksRMB;
     [SerializeField] private AttackableValue _attackablesRMB;
     [SerializeField] private Transform _groundTransform;
