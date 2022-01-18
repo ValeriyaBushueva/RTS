@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5cd38e-914d-4f41-818d-7d461b4041db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Abstractions.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Abstractions.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandExecutorBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandExecutorBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/AssetsContext.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/AssetsContext.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/GlobalScopeInstaller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/GlobalScopeInstaller.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StopAwaiter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StopAwaiter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/OutlineSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/OutlineSelector.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +44,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AssetsInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/IAttackable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/NewValueNotifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/IAwaitable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/PatrolCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/753965D1-2250-41AE-90AF-37EF632F784E/59/85e80723/Animator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/IAwaiter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -80,13 +81,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/AttackCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" />
-      <option value="$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/PatrolCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/IAwaiter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/CancellableCommandCreatorBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/CommandCreatorBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/MoveCommandCommandCreator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/PatrolCommandCommandCreator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ProduceUnitCommandCommandCreator.cs" />
@@ -105,14 +103,20 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/StopAwaiter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/OutlineSelector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandExecutorBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/AssetsContext.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/MoveCommandCommandCreator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/CancellableCommandCreatorBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="22KHYzu5L0nGmpUxY1IcruKJu7a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -163,6 +167,7 @@
       <workItem from="1640777952093" duration="868000" />
       <workItem from="1642423887857" duration="2143000" />
       <workItem from="1642506296381" duration="1628000" />
+      <workItem from="1642508707797" duration="4031000" />
     </task>
     <servers />
   </component>

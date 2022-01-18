@@ -166,11 +166,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7751111c10f04340acd5d99bc2a8555e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _eventSystem: {fileID: 467524304}
   _camera: {fileID: 963194227}
   _selectedObject: {fileID: 11400000, guid: 7141aae4b16134e49af0215b6da77bcf, type: 2}
+  _eventSystem: {fileID: 467524304}
   _groundClicksRMB: {fileID: 11400000, guid: 2b897e41a5c34e9419c18e2f8d7cd113, type: 2}
-  _attackablesRMB: {fileID: 0}
+  _attackablesRMB: {fileID: 11400000, guid: 0941b92e6598c6845b47fb9ac34c687a, type: 2}
   _groundTransform: {fileID: 2003567869}
 --- !u!1 &77813538
 GameObject:
@@ -1686,6 +1686,7 @@ MonoBehaviour:
   _unitsParent: {fileID: 1748817644}
   _maxHealth: 1000
   _icon: {fileID: 21300000, guid: 712262adeebd1924cad36360993fca8a, type: 3}
+  _pivotPoint: {fileID: 0}
 --- !u!65 &1869394027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2273,8 +2274,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99c41e13e5d4bc69af2196d211358b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _legacyContext: {fileID: 11400000, guid: 9b722f212be4657489da1141c6eb6c44, type: 2}
-  _vector3Value: {fileID: 11400000, guid: 2b897e41a5c34e9419c18e2f8d7cd113, type: 2}
 --- !u!1001 &5991998661865316369
 PrefabInstance:
   m_ObjectHideFlags: 0

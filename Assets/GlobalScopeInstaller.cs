@@ -14,7 +14,9 @@ public class GlobalScopeInstaller : ScriptableObjectInstaller<GlobalScopeInstall
 
     public override void InstallBindings()
     {
-        Container.BindInstances(_legacyContext, _groundClicksRMB, _attackableClicksRMB, _selectables);
-
+        Container.BindInterfacesAndSelfTo(_legacyContext.GetType()).FromInstance(_legacyContext);
+        Container.BindInterfacesAndSelfTo(_groundClicksRMB.GetType()).FromInstance(_groundClicksRMB);
+        Container.BindInterfacesAndSelfTo(_attackableClicksRMB.GetType()).FromInstance(_attackableClicksRMB);
+        Container.BindInterfacesAndSelfTo(_selectables.GetType()).FromInstance(_selectables);
     }
 }
