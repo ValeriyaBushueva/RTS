@@ -1314,6 +1314,8 @@
                 <e p="Model.asmdef" t="Include" />
                 <e p="NewValueNotifier.cs" t="Include" />
                 <e p="SelectableValue.cs" t="Include" />
+                <e p="StatefulScriptableObjectValueBase.cs" t="Include" />
+                <e p="StatelessScriptableObjectValueBase.cs" t="Include" />
                 <e p="UIModelInstaller.cs" t="Include" />
                 <e p="Vector3Value.cs" t="Include" />
               </e>
@@ -1342,6 +1344,7 @@
             <e p="IAwaitable.cs" t="Include" />
             <e p="IAwaiter.cs" t="Include" />
             <e p="InjectAssetAttribute.cs" t="Include" />
+            <e p="UniRxExtensions.cs" t="Include" />
             <e p="Utils.asmdef" t="Include" />
           </e>
         </e>

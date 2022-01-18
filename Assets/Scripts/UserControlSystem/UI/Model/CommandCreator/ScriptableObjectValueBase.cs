@@ -43,7 +43,7 @@ public abstract class ScriptableObjectValueBase<T> : ScriptableObject,  IAwaitab
     public T CurrentValue { get; private set; }
     public Action<T> OnNewValue;
 
-    public void SetValue(T value)
+    public virtual void SetValue(T value)
     {
         CurrentValue = value;
         OnNewValue?.Invoke(value);
