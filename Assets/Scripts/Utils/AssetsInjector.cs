@@ -9,6 +9,7 @@ namespace Utils
         
         public static T Inject<T>(this AssetsContext context, T target)
         {
+            
             var targetType = target.GetType();
             while (targetType != null)
             {

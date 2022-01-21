@@ -30,6 +30,7 @@ namespace UserControlSystem
             Container.Bind<Sprite>().WithId("Chomper").FromInstance(_chomperSprite);
 
             Container.Bind<BottomCenterModel>().AsSingle();
+            
         }
     }
 }

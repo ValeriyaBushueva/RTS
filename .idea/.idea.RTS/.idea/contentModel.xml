@@ -35,6 +35,38 @@
           </e>
         </e>
         <e p="AssetsInstaller.cs" t="Include" />
+        <e p="FindReference2" t="Include">
+          <e p="Editor" t="Include">
+            <e p="FR2.asmdef" t="Include" />
+            <e p="Script" t="Include">
+              <e p="FR2_Asset.cs" t="Include" />
+              <e p="FR2_AssetType.cs" t="Include" />
+              <e p="FR2_Bookmark.cs" t="Include" />
+              <e p="FR2_Cache.cs" t="Include" />
+              <e p="FR2_CacheEditor.cs" t="Include" />
+              <e p="FR2_CSV.cs" t="Include" />
+              <e p="FR2_Duplicate.cs" t="Include" />
+              <e p="FR2_Export.cs" t="Include" />
+              <e p="FR2_Helper.cs" t="Include" />
+              <e p="FR2_Ref.cs" t="Include" />
+              <e p="FR2_SceneCache.cs" t="Include" />
+              <e p="FR2_Selection.cs" t="Include" />
+              <e p="FR2_TreeUI2.cs" t="Include" />
+              <e p="FR2_Unity.cs" t="Include" />
+              <e p="FR2_UsedInBuild.cs" t="Include" />
+              <e p="FR2_WindowAll.cs" t="Include" />
+              <e p="FR2_WindowBase.cs" t="Include" />
+              <e p="UI" t="Include">
+                <e p="FR2_DeleteButton.cs" t="Include" />
+                <e p="FR2_Icon.cs" t="Include" />
+                <e p="FR2_SearchView.cs" t="Include" />
+                <e p="FR2_SplitView.cs" t="Include" />
+                <e p="FR2_TabView.cs" t="Include" />
+                <e p="GUI2.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="GlobalScopeInstaller.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="UniRx" t="Include">
@@ -1413,6 +1445,7 @@
         </e>
       </e>
       <e p="Core.csproj" t="IncludeRecursive" />
+      <e p="FR2.csproj" t="IncludeRecursive" />
       <e p="Model.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
