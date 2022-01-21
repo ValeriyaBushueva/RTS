@@ -1260,16 +1260,20 @@
                 <e p="IPatrolCommand.cs" t="Include" />
                 <e p="IProduceUnitCommand.cs" t="Include" />
                 <e p="IStopCommand.cs" t="Include" />
+                <e p="UnitMovementStop.cs" t="Include" />
               </e>
               <e p="ICommand.cs" t="Include" />
               <e p="ICommandExecutor.cs" t="Include" />
             </e>
             <e p="IAttackable.cs" t="Include" />
             <e p="IHealthHolder.cs" t="Include" />
+            <e p="IIconHolder.cs" t="Include" />
             <e p="ISelectable.cs" t="Include" />
             <e p="ITimeModel.cs" t="Include" />
             <e p="IUnitProducer.cs" t="Include" />
+            <e p="IUnitProductionTask.cs" t="Include" />
             <e p="NewValueNotifier.cs" t="Include" />
+            <e p="StopAwaiter.cs" t="Include" />
           </e>
           <e p="Core" t="Include">
             <e p="CommandExecutors" t="Include">
@@ -1277,6 +1281,7 @@
               <e p="MainUnit.cs" t="Include" />
               <e p="MoveCommandExecutor.cs" t="Include" />
               <e p="PatrolCommandExecutor.cs" t="Include" />
+              <e p="ProduceUnitCommandExecutor.cs" t="Include" />
               <e p="StopCommandExecutor.cs" t="Include" />
             </e>
             <e p="Core.asmdef" t="Include" />
@@ -1286,6 +1291,7 @@
             <e p="StopAwaiter.cs" t="Include" />
             <e p="TimeModel.cs" t="Include" />
             <e p="UnitMovementStop.cs" t="Include" />
+            <e p="UnitProductionTask.cs" t="Include" />
           </e>
           <e p="UserControlSystem" t="Include">
             <e p="CommandsRealization" t="Include">
@@ -1300,6 +1306,7 @@
             <e p="UI" t="Include">
               <e p="Model" t="Include">
                 <e p="AttackableValue.cs" t="Include" />
+                <e p="BottomCenterModel.cs" t="Include" />
                 <e p="CommandButtonsModel.cs" t="Include" />
                 <e p="CommandCreator" t="Include">
                   <e p="AttackCommandCommandCreator.cs" t="Include" />
@@ -1320,6 +1327,7 @@
                 <e p="Vector3Value.cs" t="Include" />
               </e>
               <e p="Presenter" t="Include">
+                <e p="BottomCenterPresenter.cs" t="Include" />
                 <e p="BottomLeftPresenter.cs" t="Include" />
                 <e p="CommandButtonsPresenter.cs" t="Include" />
                 <e p="MenuPresenter.cs" t="Include" />
@@ -1329,8 +1337,10 @@
                 <e p="TopPanelPresenter.cs" t="Include" />
               </e>
               <e p="View" t="Include">
+                <e p="BottomCenterView.cs" t="Include" />
                 <e p="CommandButtonsView.cs" t="Include" />
                 <e p="OutlineSelector.cs" t="Include" />
+                <e p="UiViewInstaller.cs" t="Include" />
                 <e p="View.asmdef" t="Include" />
               </e>
             </e>
@@ -1344,6 +1354,10 @@
             <e p="IAwaitable.cs" t="Include" />
             <e p="IAwaiter.cs" t="Include" />
             <e p="InjectAssetAttribute.cs" t="Include" />
+            <e p="NewValueNotifier.cs" t="Include" />
+            <e p="ScriptableObjectValueBase.cs" t="Include" />
+            <e p="StatefulScriptableObjectValueBase.cs" t="Include" />
+            <e p="StatelessScriptableObjectValueBase.cs" t="Include" />
             <e p="UniRxExtensions.cs" t="Include" />
             <e p="Utils.asmdef" t="Include" />
           </e>
@@ -1356,6 +1370,9 @@
             <e p="AsyncSyntax.cs" t="Include" />
             <e p="CoroutineVsAsync.cs" t="Include" />
             <e p="Extensions.cs" t="Include" />
+          </e>
+          <e p="ReactiveCollections" t="Include">
+            <e p="Samples.cs" t="Include" />
           </e>
           <e p="Zenject" t="Include">
             <e p="InjectSamples.cs" t="Include" />

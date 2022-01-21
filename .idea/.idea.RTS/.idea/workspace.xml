@@ -5,11 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5cd38e-914d-4f41-818d-7d461b4041db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetsInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetsInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Chomper Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Chomper Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainBuilding.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MainBuilding.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/AssetsInstaller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/AssetsInstaller.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Abstractions.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Abstractions.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Abstractions.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Abstractions.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandExecutorBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandExecutorBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IProduceUnitCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IProduceUnitCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/ISelectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/ISelectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/IUnitProducer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/IUnitProducer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/IUnitProducer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/IUnitProducer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Core.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Core.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Core.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Core.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StopAwaiter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StopAwaiter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/ProduceUnitCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/ProduceUnitCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ProduceUnitCommandCommandCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ProduceUnitCommandCommandCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/StopCommandCommandCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/StopCommandCommandCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/Model.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/Model.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/NewValueNotifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/NewValueNotifier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/SelectableValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/SelectableValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/UIModelInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/UIModelInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/Vector3Value.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/Vector3Value.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/BottomLeftPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/BottomLeftPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/OutlineSelectorPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/OutlineSelectorPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/Presenter.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/Presenter.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/View.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/View.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UserControlSystem.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UserControlSystem.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/AwaiterBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/AwaiterBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/AwaiterBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/AwaiterBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/UniRxExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/UniRxExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/UniRxExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/UniRxExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/Utils.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Utils.asmdef" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,24 +100,19 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/ISelectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/StopCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/StatelessScriptableObjectValueBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/UnitMovementStop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/StatefulScriptableObjectValueBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F2625FD8-44AA-4DD5-B6A3-882F24F14D79/5d/3b617b39/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/AttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandButtonsModel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/UIModelInstaller.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/MoveCommand.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IMoveCommand.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/IHealthHolder.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/IAttackable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IAttackCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IPatrolCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/ISelectable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainUnit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/AttackCommand.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/CommandsRealization/PatrolCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/IAwaiter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/CommandCreatorBase.cs" />
@@ -88,10 +127,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/StopAwaiter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/NewValueNotifier.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/AwaiterBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/NewValueNotifier.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/StopAwaiter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/OutlineSelector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandExecutorBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/AssetsContext.cs" />
@@ -101,18 +137,27 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/TimeModel.cs" />
-      <option value="$PROJECT_DIR$/Assets/AssetsInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/BottomLeftPresenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/OutlineSelectorPresenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/UniRxExtensions.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/StatefulScriptableObjectValueBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/StatelessScriptableObjectValueBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/AttackableValue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/SelectableValue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/Vector3Value.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/OutlineSelector.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IProduceUnitCommand.cs" />
+      <option value="$PROJECT_DIR$/Assets/AssetsInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/AwaiterBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/NewValueNotifier.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/StopAwaiter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/UnitMovementStop.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/BottomCenterModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/BottomCenterPresenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ScriptableObjectValueBase.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="22KHYzu5L0nGmpUxY1IcruKJu7a" />
@@ -124,7 +169,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.5634675" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.56313723" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -143,10 +188,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11896">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="11896" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -170,6 +215,7 @@
       <workItem from="1642423887857" duration="2143000" />
       <workItem from="1642506296381" duration="1628000" />
       <workItem from="1642508707797" duration="12191000" />
+      <workItem from="1642760926374" duration="5758000" />
     </task>
     <servers />
   </component>
@@ -197,17 +243,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandButtonsModel.cs</url>
-          <line>41</line>
-          <properties documentPath="D:\GeekBrains\RTS\Assets\Scripts\UserControlSystem\UI\Model\CommandButtonsModel.cs" initialLine="41" containingFunctionPresentation="method 'ExecuteCommandWrapper'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/BottomCenterPresenter.cs</url>
+          <line>29</line>
+          <properties documentPath="D:\GeekBrains\RTS\Assets\Scripts\UserControlSystem\UI\Presenter\BottomCenterPresenter.cs" initialLine="29" containingFunctionPresentation="lambda expression inside method 'Init'">
             <startOffsets>
-              <option value="1771" />
+              <option value="934" />
             </startOffsets>
             <endOffsets>
-              <option value="1811" />
+              <option value="976" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

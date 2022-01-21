@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
 
-namespace UserControlSystem
+namespace UserControlSystem.UI.Presenter
 {
     public sealed class BottomLeftPresenter : MonoBehaviour
     {
@@ -15,17 +15,12 @@ namespace UserControlSystem
         [SerializeField] private TextMeshProUGUI _text;
         [SerializeField] private Image _sliderBackground;
         [SerializeField] private Image _sliderFillImage;
-        
+
         [Inject] private IObservable<ISelectable> _selectedValues;
 
+        private void Start() => _selectedValues.Subscribe(ONSelected);
 
-        private void Start()
-        {
-            _selectedValues.Subscribe(onSelected).AddTo(this);
-
-        }
-        
-        private void onSelected(ISelectable selected)
+        private void ONSelected(ISelectable selected)
         {
             _selectedImage.enabled = selected != null;
             _healthSlider.gameObject.SetActive(selected != null);
