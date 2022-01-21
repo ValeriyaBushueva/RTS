@@ -18,74 +18,29 @@ public sealed class MouseInteractionPresenter : MonoBehaviour
     
     private Plane _groundPlane;
     
-    // private void Start() => _groundPlane = new Plane(_groundTransform.up, 0);
-    //
-    // private void Update()
-    // {
-    //     if (!Input.GetMouseButtonUp(0) && !Input.GetMouseButton(1))
-    //     {
-    //         return;
-    //     }
-    //     
-    //     if (_eventSystem.IsPointerOverGameObject())
-    //     {
-    //         return;
-    //     }
-    //     
-    //     var ray = _camera.ScreenPointToRay(Input.mousePosition);
-    //     var hits = Physics.RaycastAll(ray);
-    //     if (Input.GetMouseButtonUp(0))
-    //     {
-    //         if (weHit<ISelectable>(hits, out var selectable))
-    //         {
-    //             _selectedObject.SetValue(selectable);
-    //         }
-    //         else
-    //         {
-    //             _selectedObject.SetValue(null);
-    //         }
-    //     }
-    //     else
-    //     {
-    //         if (weHit<IAttackable>(hits, out var attackable))
-    //         {
-    //             _attackablesRMB.SetValue(attackable);
-    //         }
-    //         else if (_groundPlane.Raycast(ray, out var enter))
-    //         {
-    //             _groundClicksRMB.SetValue(ray.origin + ray.direction * enter);
-    //         }
-    //     }
-    // }
-    //
     [Inject]
     private void Init()
     { _groundPlane = new Plane(_groundTransform.up, 0);
-
-        //Сначала берем поток всех кадров, в которых клики на блочит ui
+        
         var nonBlockedByUiFramesStream = Observable.EveryUpdate()
             .Where(_ => !_eventSystem.IsPointerOverGameObject());
-
-        //Затем формируем из него два потока кликов — правой и левой кнопкой мыши
+        
         var leftClicksStream = nonBlockedByUiFramesStream
             .Where(_ => Input.GetMouseButtonDown(0));
         var rightClicksStream = nonBlockedByUiFramesStream
             .Where(_ => Input.GetMouseButtonDown(1));
-
-        //Выбираем лучи, стреляющие из точки экрана
+        
         var lmbRays = leftClicksStream
             .Select(_ => _camera.ScreenPointToRay(Input.mousePosition));
         var rmbRays = rightClicksStream
             .Select(_ => _camera.ScreenPointToRay(Input.mousePosition));
-
-        //Выбираем из них все пересечения с лучом
+        
         var lmbHitsStream = lmbRays
             .Select(ray => Physics.RaycastAll(ray));
-        //Для правой кнопки мыши нам еще понадобится сам луч, поэтому передаем его в кортеже
+       
         var rmbHitsStream = rmbRays
             .Select(ray => (ray, Physics.RaycastAll(ray)));
-
-        //наконец подписываемся на результат и анализируем подробно что нам нужно из этих потоков
+        
         lmbHitsStream.Subscribe(hits =>
         {
             if (weHit<ISelectable>(hits, out var selectable))
