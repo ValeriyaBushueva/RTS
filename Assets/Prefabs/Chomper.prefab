@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!54 &1395485288
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991998661950179299}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
 --- !u!65 &1796122223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13,6 +29,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0751885, z: 1}
   m_Center: {x: 0, y: 0.52214235, z: 0}
+--- !u!114 &1395485297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991998661950179299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fcd92dab35c27546b2de44276e16db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _outlineComponents: []
 --- !u!114 &1796122226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25,7 +54,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7199fb880eb4449a447d552b42276e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stop: {fileID: 0}
+  _stop: {fileID: 6233052245052489496}
   _animator: {fileID: 5991998661959709729}
   _stopCommandExecutor: {fileID: 2446134721697181674}
 --- !u!114 &1796122228
@@ -67,6 +96,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754705766f7d49ab8e046b76a7b3fed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3054903874597326040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991998661950179299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08eca9f7688a0a24685b89133b020c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 9109357780457270474}
+  _installerPrefabs: []
+  _autoRun: 1
+  _kernel: {fileID: 0}
+--- !u!114 &4225388671596206351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991998661950179299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff0f391481763841b99d68dcb221378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5686323250825433311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991998661950179299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d24984cc91b285a4ea9d781b88170d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5823688575422053672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,6 +163,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _agent: {fileID: 8443635462732229503}
+  _collisionDetector: {fileID: 4225388671596206351}
+  _throttleFrames: 60
+  _continuityThreshold: 10
 --- !u!195 &8443635462732229503
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -114,6 +188,18 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &9109357780457270474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991998661950179299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890220dca999b714bad62fc3e9d3835b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5991998661950275905
 PrefabInstance:
   m_ObjectHideFlags: 0

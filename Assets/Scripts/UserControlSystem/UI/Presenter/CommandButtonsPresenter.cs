@@ -21,7 +21,7 @@ namespace UserControlSystem.UI.Presenter
         
         private void Start()
         {
-            _view.OnClick += (a,b) =>  _model.OnCommandButtonClicked(a);
+            _view.OnClick += _model.OnCommandButtonClicked;
             _model.OnCommandSent += _view.UnblockAllInteractions;
             _model.OnCommandCancel += _view.UnblockAllInteractions;
             _model.OnCommandAccepted += _view.BlockInteractions;

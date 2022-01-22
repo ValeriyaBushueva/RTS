@@ -7,7 +7,7 @@ using UniRx;
 using UserControlSystem.CommandsRealization;
 using Zenject;
 
-public class ChomperCommandsQueue : MonoBehaviour,  ICommandsQueue
+public class ChomperCommandsQueue : MonoBehaviour,  ICommandsQueue, IUnit
 
 {
     [Inject] CommandExecutorBase<IMoveCommand> _moveCommandExecutor;

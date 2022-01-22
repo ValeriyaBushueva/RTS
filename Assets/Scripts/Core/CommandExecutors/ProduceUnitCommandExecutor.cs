@@ -5,6 +5,7 @@ using Abstractions.Commands.CommandsInterfaces;
 using UniRx;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using Zenject;
 
 namespace Core.CommandExecutors
 {
@@ -30,6 +31,10 @@ namespace Core.CommandExecutors
             {
                 removeTaskAtIndex(0);
                 Instantiate(innerTask.UnitPrefab, new Vector3(Random.Range(-10, 10), 0, Random.Range(-10, 10)), Quaternion.identity, _unitsParent);
+              
+              //_diContainer.InstantiatePrefab(innerTask.UnitPrefab, new Vector3(Random.Range(-10, 10), 0, Random.Range(-10, 10)), Quaternion.identity, _unitsParent);
+
+
             }
         }
 
