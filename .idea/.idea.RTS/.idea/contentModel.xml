@@ -1284,10 +1284,11 @@
         <e p="Scripts" t="Include">
           <e p="Abstractions" t="Include">
             <e p="Abstractions.asmdef" t="Include" />
+            <e p="CommandExecutorBase.cs" t="Include" />
             <e p="Commands" t="Include">
-              <e p="CommandExecutorBase.cs" t="Include" />
               <e p="CommandsInterfaces" t="Include">
                 <e p="IAttackCommand.cs" t="Include" />
+                <e p="ICommandsQueue.cs" t="Include" />
                 <e p="IMoveCommand.cs" t="Include" />
                 <e p="IPatrolCommand.cs" t="Include" />
                 <e p="IProduceUnitCommand.cs" t="Include" />
@@ -1310,11 +1311,21 @@
           <e p="Core" t="Include">
             <e p="CommandExecutors" t="Include">
               <e p="AttackCommandExecutor.cs" t="Include" />
+              <e p="ChomperCommandsQueue.cs" t="Include" />
+              <e p="MainBuildingCommandQueue.cs" t="Include" />
               <e p="MainUnit.cs" t="Include" />
               <e p="MoveCommandExecutor.cs" t="Include" />
               <e p="PatrolCommandExecutor.cs" t="Include" />
               <e p="ProduceUnitCommandExecutor.cs" t="Include" />
               <e p="StopCommandExecutor.cs" t="Include" />
+            </e>
+            <e p="CommandsRealization" t="Include">
+              <e p="AttackCommand.cs" t="Include" />
+              <e p="MoveCommand.cs" t="Include" />
+              <e p="PatrolCommand.cs" t="Include" />
+              <e p="ProduceUnitCommand.cs" t="Include" />
+              <e p="ProduceUnitCommandHeir.cs" t="Include" />
+              <e p="StopCommand.cs" t="Include" />
             </e>
             <e p="Core.asmdef" t="Include" />
             <e p="CoreInstaller.cs" t="Include" />
@@ -1326,14 +1337,6 @@
             <e p="UnitProductionTask.cs" t="Include" />
           </e>
           <e p="UserControlSystem" t="Include">
-            <e p="CommandsRealization" t="Include">
-              <e p="AttackCommand.cs" t="Include" />
-              <e p="MoveCommand.cs" t="Include" />
-              <e p="PatrolCommand.cs" t="Include" />
-              <e p="ProduceUnitCommand.cs" t="Include" />
-              <e p="ProduceUnitCommandHeir.cs" t="Include" />
-              <e p="StopCommand.cs" t="Include" />
-            </e>
             <e p="MouseInteractionsHandler.cs" t="Include" />
             <e p="UI" t="Include">
               <e p="Model" t="Include">

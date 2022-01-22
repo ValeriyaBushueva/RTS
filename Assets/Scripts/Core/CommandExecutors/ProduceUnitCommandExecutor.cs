@@ -1,4 +1,5 @@
-﻿using Abstractions;
+﻿using System.Threading.Tasks;
+using Abstractions;
 using Abstractions.Commands;
 using Abstractions.Commands.CommandsInterfaces;
 using UniRx;
@@ -43,7 +44,7 @@ namespace Core.CommandExecutors
             _queue.RemoveAt(_queue.Count - 1);
         }
 
-        public override void ExecuteSpecificCommand(IProduceUnitCommand command)
+        public override async  Task ExecuteSpecificCommand(IProduceUnitCommand command)
         {
             _queue.Add(new UnitProductionTask(command.ProductionTime, command.Icon, command.UnitPrefab, command.UnitName));
         }

@@ -21,15 +21,15 @@ namespace UserControlSystem.UI.Presenter
         
         private void Start()
         {
-            _view.OnClick += _model.OnCommandButtonClicked;
+            _view.OnClick += (a,b) =>  _model.OnCommandButtonClicked(a);
             _model.OnCommandSent += _view.UnblockAllInteractions;
             _model.OnCommandCancel += _view.UnblockAllInteractions;
             _model.OnCommandAccepted += _view.BlockInteractions;
 
-            _selectedValues.Subscribe(ONSelected);
+            _selectedValues.Subscribe(OnSelected);
         }
 
-        private void ONSelected(ISelectable selectable)
+        private void OnSelected(ISelectable selectable)
         {
             if (_currentSelectable == selectable)
             {
@@ -46,7 +46,11 @@ namespace UserControlSystem.UI.Presenter
             {
                 var commandExecutors = new List<ICommandExecutor>();
                 commandExecutors.AddRange((selectable as Component).GetComponentsInParent<ICommandExecutor>());
-                _view.MakeLayout(commandExecutors);
+             //  _view.MakeLayout(commandExecutors);
+             var queue = (selectable as Component).GetComponentInParent<ICommandsQueue>();
+             _view.MakeLayout(commandExecutors, queue);
+
+
             }
         }
     }

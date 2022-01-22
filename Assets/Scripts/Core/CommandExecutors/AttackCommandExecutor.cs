@@ -1,4 +1,6 @@
-﻿using Abstractions.Commands;
+﻿using System.Threading.Tasks;
+using Abstractions;
+using Abstractions.Commands;
 using Abstractions.Commands.CommandsInterfaces;
 using UnityEngine;
 
@@ -6,7 +8,7 @@ namespace Core.CommandExecutors
 {
     public class AttackCommandExecutor : CommandExecutorBase<IAttackCommand>
     {
-        public override void ExecuteSpecificCommand(IAttackCommand command)
+        public override async Task ExecuteSpecificCommand(IAttackCommand command)
         {
             Debug.Log($"{name} is attacking!");
         }
