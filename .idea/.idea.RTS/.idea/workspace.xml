@@ -8,13 +8,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Chomper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Chomper.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ChomperCommandsQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ChomperCommandsQueue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainBuildingCommandQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainBuildingCommandQueue.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ProduceUnitCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ProduceUnitCommandExecutor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandButtonsModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandButtonsModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/UIModelInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/UIModelInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/CommandButtonsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/CommandButtonsView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +41,11 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/Outline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ChomperCommandsQueue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/IUnit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/SetRallyPointCommandExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandsRealization/ProduceUnitCommandHeir.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/MoveCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/StopAwaiter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/SetRallyPointCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/CancellableCommandCreatorBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/AsyncExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Inspection/Special/SystemObjectInspector.cs" root0="SKIP_HIGHLIGHTING" />
@@ -59,6 +62,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/e0/c115f609/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/UnitMovementStop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/StatefulScriptableObjectValueBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/ISetRallyPointCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F2625FD8-44AA-4DD5-B6A3-882F24F14D79/5d/3b617b39/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandsRealization/AttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/IHealthHolder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -85,11 +89,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/NewValueNotifier.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandExecutorBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/AssetsContext.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/MoveCommandCommandCreator.cs" />
       <option value="$PROJECT_DIR$/Assets/GlobalScopeInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/TimeModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/BottomLeftPresenter.cs" />
@@ -113,7 +112,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/BottomCenterModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/AssetsInjector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ProduceUnitCommandCommandCreator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/UIModelInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/BottomCenterView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/ICommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" />
@@ -122,20 +120,26 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/ICommandsQueue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/UniRxExtensions.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainBuildingCommandQueue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutorBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/CommandExecutorBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/CommandButtonsView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/CommandCreatorBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/CancellableCommandCreatorBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandButtonsModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutorsInstaller.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ProduceUnitCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/CollisionDetector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/IUnit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ChomperCommandsQueue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/ISetRallyPointCommand.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/SetRallyPointCommand.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/SetRallyPointCommandExecutor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/SetRallyPointCommandCreator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandButtonsModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainBuildingCommandQueue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/UIModelInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ProduceUnitCommandExecutor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/CommandButtonsView.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="22KHYzu5L0nGmpUxY1IcruKJu7a" />
@@ -194,7 +198,7 @@
       <workItem from="1642506296381" duration="1628000" />
       <workItem from="1642508707797" duration="12191000" />
       <workItem from="1642760926374" duration="8604000" />
-      <workItem from="1642872460024" duration="5627000" />
+      <workItem from="1642872460024" duration="8648000" />
     </task>
     <servers />
   </component>
@@ -233,6 +237,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Abstractions/ISetRallyPointCommand.cs</url>
+          <line>5</line>
+          <properties documentPath="D:\GeekBrains\RTS\Assets\Scripts\Abstractions\ISetRallyPointCommand.cs" initialLine="6" containingFunctionPresentation="property 'RallyPoint'">
+            <startOffsets>
+              <option value="126" />
+            </startOffsets>
+            <endOffsets>
+              <option value="130" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

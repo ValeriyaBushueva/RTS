@@ -11,6 +11,7 @@ public sealed class MainBuilding : MonoBehaviour, ISelectable
     [SerializeField] private float _maxHealth = 1000;
     [SerializeField] private Sprite _icon;
     [SerializeField] private Transform _pivotPoint;
+    public Vector3 RallyPoint { get; set; }
 
     private float _health = 1000;
 

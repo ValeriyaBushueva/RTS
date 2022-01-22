@@ -1303,6 +1303,7 @@
             <e p="IHealthHolder.cs" t="Include" />
             <e p="IIconHolder.cs" t="Include" />
             <e p="ISelectable.cs" t="Include" />
+            <e p="ISetRallyPointCommand.cs" t="Include" />
             <e p="ITimeModel.cs" t="Include" />
             <e p="IUnitProducer.cs" t="Include" />
             <e p="IUnitProductionTask.cs" t="Include" />
@@ -1318,6 +1319,7 @@
               <e p="MoveCommandExecutor.cs" t="Include" />
               <e p="PatrolCommandExecutor.cs" t="Include" />
               <e p="ProduceUnitCommandExecutor.cs" t="Include" />
+              <e p="SetRallyPointCommandExecutor.cs" t="Include" />
               <e p="StopCommandExecutor.cs" t="Include" />
             </e>
             <e p="CommandExecutorsInstaller.cs" t="Include" />
@@ -1327,6 +1329,7 @@
               <e p="PatrolCommand.cs" t="Include" />
               <e p="ProduceUnitCommand.cs" t="Include" />
               <e p="ProduceUnitCommandHeir.cs" t="Include" />
+              <e p="SetRallyPointCommand.cs" t="Include" />
               <e p="StopCommand.cs" t="Include" />
             </e>
             <e p="Core.asmdef" t="Include" />
@@ -1353,6 +1356,7 @@
                   <e p="PatrolCommandCommandCreator.cs" t="Include" />
                   <e p="ProduceUnitCommandCommandCreator.cs" t="Include" />
                   <e p="ScriptableObjectValueBase.cs" t="Include" />
+                  <e p="SetRallyPointCommandCreator.cs" t="Include" />
                   <e p="StopCommandCommandCreator.cs" t="Include" />
                 </e>
                 <e p="Model.asmdef" t="Include" />
