@@ -1817,6 +1817,7 @@ GameObject:
   - component: {fileID: 1869428426}
   - component: {fileID: 1869428428}
   - component: {fileID: 1869428427}
+  - component: {fileID: 1869428429}
   m_Layer: 0
   m_Name: MainBuilding
   m_TagString: Untagged
@@ -1898,6 +1899,18 @@ MonoBehaviour:
   _installerPrefabs: []
   _autoRun: 1
   _kernel: {fileID: 0}
+--- !u!114 &1869428429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869428423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f4fa7c55850c7478691bf22c68da7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1910082941
 GameObject:
   m_ObjectHideFlags: 0
