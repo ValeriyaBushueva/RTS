@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5cd38e-914d-4f41-818d-7d461b4041db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperAttack.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperAttack.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperHit3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperHit3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimatorControllers/Chomper Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimatorControllers/Chomper Animator Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Chomper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Chomper.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/IAttackable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/IAttackable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ProduceUnitCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ProduceUnitCommandExecutor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/MainUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/MainUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +99,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/BottomCenterView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/ICommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/ICommandsQueue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/UniRxExtensions.cs" />
@@ -147,6 +132,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainUnit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="22KHYzu5L0nGmpUxY1IcruKJu7a" />
@@ -207,7 +193,7 @@
       <workItem from="1642760926374" duration="8604000" />
       <workItem from="1642872460024" duration="10178000" />
       <workItem from="1642958581397" duration="1221000" />
-      <workItem from="1643120020341" duration="7208000" />
+      <workItem from="1643120020341" duration="7567000" />
     </task>
     <servers />
   </component>
