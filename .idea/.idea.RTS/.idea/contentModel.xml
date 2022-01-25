@@ -1300,6 +1300,8 @@
               <e p="IUnit.cs" t="Include" />
             </e>
             <e p="IAttackable.cs" t="Include" />
+            <e p="IDamageDealer.cs" t="Include" />
+            <e p="IFactionMember.cs" t="Include" />
             <e p="IHealthHolder.cs" t="Include" />
             <e p="IIconHolder.cs" t="Include" />
             <e p="ISelectable.cs" t="Include" />
@@ -1311,6 +1313,7 @@
             <e p="StopAwaiter.cs" t="Include" />
           </e>
           <e p="Core" t="Include">
+            <e p="ChomperInstaller.cs" t="Include" />
             <e p="CommandExecutors" t="Include">
               <e p="AttackCommandExecutor.cs" t="Include" />
               <e p="ChomperCommandsQueue.cs" t="Include" />
@@ -1334,6 +1337,7 @@
             </e>
             <e p="Core.asmdef" t="Include" />
             <e p="CoreInstaller.cs" t="Include" />
+            <e p="FactionMember.cs" t="Include" />
             <e p="MainBuilding.cs" t="Include" />
             <e p="MainUnit.cs" t="Include" />
             <e p="StopAwaiter.cs" t="Include" />
