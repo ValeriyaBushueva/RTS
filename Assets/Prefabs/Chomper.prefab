@@ -84,8 +84,8 @@ MonoBehaviour:
   _maxHealth: 100
   _icon: {fileID: 21300000, guid: 9908913e928c42d4f9f1891893bbc424, type: 3}
   _pivotTransform: {fileID: 5991998661950675907}
-  _animator: {fileID: 0}
-  _stopCommand: {fileID: 0}
+  _animator: {fileID: 5991998661959709729}
+  _stopCommand: {fileID: 2446134721697181674}
   _damage: 25
 --- !u!114 &1660264215300390364
 MonoBehaviour:
@@ -99,6 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04086624d5ce453cba36b472f17b4120, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _stop: {fileID: 6233052245052489496}
+  _animator: {fileID: 5991998661959709729}
+  _stopCommandExecutor: {fileID: 2446134721697181674}
 --- !u!114 &2446134721697181674
 MonoBehaviour:
   m_ObjectHideFlags: 0
