@@ -34,11 +34,12 @@ namespace Core.CommandExecutors
                 removeTaskAtIndex(0);
                 
                 var instance = _diContainer.InstantiatePrefab(innerTask.UnitPrefab, transform.position, Quaternion.identity, _unitsParent);
-              var queue = instance.GetComponent<ICommandsQueue>();
-              var mainBuilding = GetComponent<MainBuilding>();
-              queue.EnqueueCommand(new MoveCommand(mainBuilding.RallyPoint));
-
-
+              // var queue = instance.GetComponent<ICommandsQueue>();
+              // var mainBuilding = GetComponent<MainBuilding>();
+              // queue.EnqueueCommand(new MoveCommand(mainBuilding.RallyPoint));
+              
+              var factionMember = instance.GetComponent<FactionMember>();
+              factionMember.SetFaction(GetComponent<FactionMember>().FactionId);
 
             }
         }
