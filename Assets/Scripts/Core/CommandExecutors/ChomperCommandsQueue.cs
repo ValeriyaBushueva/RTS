@@ -16,6 +16,9 @@ public class ChomperCommandsQueue : MonoBehaviour,  ICommandsQueue, IUnit
     [Inject] CommandExecutorBase<IStopCommand> _stopCommandExecutor;
 
     private ReactiveCollection<ICommand> _innerCollection = new ReactiveCollection<ICommand>();
+    public ICommand CurrentCommand => _innerCollection.Count > 0 ? _innerCollection[0] : default;
+
+
 
     [Inject]
     private void Init()

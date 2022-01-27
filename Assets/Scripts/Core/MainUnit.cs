@@ -5,7 +5,7 @@ using UserControlSystem.CommandsRealization;
 
 namespace Core
 {
-    public class MainUnit : MonoBehaviour, ISelectable, IAttackable
+    public class MainUnit : MonoBehaviour, ISelectable, IAttackable, IAutomaticAttacker
     {
         public float Health => _health;
         public float MaxHealth => _maxHealth;
@@ -14,6 +14,7 @@ namespace Core
 
         public Sprite Icon => _icon;
         public int Damage => _damage;
+        public float VisionRadius => _visionRadius;
 
         [SerializeField] private float _maxHealth = 100;
         [SerializeField] private Sprite _icon;
@@ -21,6 +22,8 @@ namespace Core
         [SerializeField] private Animator _animator;
         [SerializeField] private StopCommandExecutor _stopCommand;
         [SerializeField] private int _damage = 25;
+        [SerializeField] private float _visionRadius = 8f;
+
         
         private float _health = 100;
         private static readonly int PlayDead= Animator.StringToHash("PlayDead");

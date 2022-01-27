@@ -1288,6 +1288,7 @@
             <e p="Commands" t="Include">
               <e p="CommandsInterfaces" t="Include">
                 <e p="IAttackCommand.cs" t="Include" />
+                <e p="IAutomaticAttacker.cs" t="Include" />
                 <e p="ICommandsQueue.cs" t="Include" />
                 <e p="IMoveCommand.cs" t="Include" />
                 <e p="IPatrolCommand.cs" t="Include" />
@@ -1314,6 +1315,9 @@
             <e p="StopAwaiter.cs" t="Include" />
           </e>
           <e p="Core" t="Include">
+            <e p="AttackerParallelnfoUpdater.cs" t="Include" />
+            <e p="AutoAttackAgent.cs" t="Include" />
+            <e p="AutoAttackEvaluator.cs" t="Include" />
             <e p="ChomperInstaller.cs" t="Include" />
             <e p="CommandExecutors" t="Include">
               <e p="AttackCommandExecutor.cs" t="Include" />
@@ -1328,7 +1332,7 @@
             </e>
             <e p="CommandExecutorsInstaller.cs" t="Include" />
             <e p="CommandsRealization" t="Include">
-              <e p="AttackCommand.cs" t="Include" />
+              <e p="AutoAttackCommand.cs" t="Include" />
               <e p="MoveCommand.cs" t="Include" />
               <e p="PatrolCommand.cs" t="Include" />
               <e p="ProduceUnitCommand.cs" t="Include" />
@@ -1338,7 +1342,9 @@
             </e>
             <e p="Core.asmdef" t="Include" />
             <e p="CoreInstaller.cs" t="Include" />
+            <e p="Deconstructors.cs" t="Include" />
             <e p="FactionMember.cs" t="Include" />
+            <e p="FactionMemberParallelInfoUpdater.cs" t="Include" />
             <e p="GameStatus.cs" t="Include" />
             <e p="MainBuilding.cs" t="Include" />
             <e p="MainUnit.cs" t="Include" />
