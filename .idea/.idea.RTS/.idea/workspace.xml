@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5cd38e-914d-4f41-818d-7d461b4041db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Chomper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Chomper.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/ICommandsQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/ICommandsQueue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandsRealization/AttackCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CommandsRealization/AttackCommand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/MainUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/MainUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/AttackCommandCommandCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ChomperInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ChomperInstaller.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ChomperCommandsQueue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/IUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/SetRallyPointCommandExecutor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/MainBuildingInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameStatus.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CommandsRealization/ProduceUnitCommandHeir.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/MoveCommandCommandCreator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -100,7 +94,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/BottomCenterModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/AssetsInjector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/ProduceUnitCommandCommandCreator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/BottomCenterView.cs" />
@@ -115,13 +108,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutorsInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/CollisionDetector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/IUnit.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ChomperCommandsQueue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/ISetRallyPointCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/SetRallyPointCommand.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandCreator/SetRallyPointCommandCreator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/UIModelInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/CommandExecutorBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainBuildingCommandQueue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/View/CommandButtonsView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserControlSystem/UI/Model/CommandButtonsModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/SetRallyPointCommandExecutor.cs" />
@@ -130,7 +121,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/IFactionMember.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/IAttackable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/IDamageDealer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/ChomperInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ProduceUnitCommandExecutor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/UnitMovementStop.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainBuilding.cs" />
@@ -149,8 +139,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Deconstructors.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/AutoAttackAgent.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/FactionMemberParallelInfoUpdater.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/AttackerParallelnfoUpdater.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Abstractions/Commands/CommandsInterfaces/ICommandsQueue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/ChomperCommandsQueue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CommandExecutors/MainBuildingCommandQueue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/AttackerParallelnfoUpdater.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/ChomperInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/MainBuildingInstaller.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="22KHYzu5L0nGmpUxY1IcruKJu7a" />
@@ -213,7 +207,9 @@
       <workItem from="1642958581397" duration="1221000" />
       <workItem from="1643120020341" duration="9574000" />
       <workItem from="1643211594218" duration="2754000" />
-      <workItem from="1643293514972" duration="1253000" />
+      <workItem from="1643293514972" duration="2271000" />
+      <workItem from="1643359651123" duration="468000" />
+      <workItem from="1643552671051" duration="1559000" />
     </task>
     <servers />
   </component>

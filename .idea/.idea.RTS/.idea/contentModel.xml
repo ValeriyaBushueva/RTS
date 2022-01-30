@@ -1347,6 +1347,7 @@
             <e p="FactionMemberParallelInfoUpdater.cs" t="Include" />
             <e p="GameStatus.cs" t="Include" />
             <e p="MainBuilding.cs" t="Include" />
+            <e p="MainBuildingInstaller.cs" t="Include" />
             <e p="MainUnit.cs" t="Include" />
             <e p="StopAwaiter.cs" t="Include" />
             <e p="TimeModel.cs" t="Include" />
