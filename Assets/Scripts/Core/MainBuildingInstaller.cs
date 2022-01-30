@@ -7,10 +7,10 @@ public class MainBuildingInstaller : MonoInstaller
 
     public override void InstallBindings()
     {
+        Container.Bind<IFactionMember>().FromComponentInChildren();
         Container
             .Bind<ITickable>()
             .FromInstance(_factionMemberParallelInfoUpdater);
-        Container.Bind<IFactionMember>().FromComponentInChildren();
     }
 
 }

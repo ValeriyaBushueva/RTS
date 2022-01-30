@@ -3,7 +3,7 @@ using Zenject;
 
 public class FactionMemberParallelInfoUpdater : MonoBehaviour, ITickable
 {
-    [Inject] private IFactionMember _factionMember;
+    [Inject(Optional = true)] private IFactionMember _factionMember;
 
     public void Tick()
     {
